@@ -1,0 +1,95 @@
+header{
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 4px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+nav{
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    width: 18%;
+}
+
+main{
+    background-color: blue;
+    border-radius: 4px;
+    display: grid;
+    width: 100%;
+}
+article{
+    background-color: green;
+    border: 2px solid green;
+    margin: 5px;
+    border-radius: 4px;
+    height: 250px;
+}
+
+.seccion_1{
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    margin-bottom: 5px;
+    margin: 8px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.seccion_2{
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    margin: 8px;
+    border-radius: 4px;
+    height: 50px;
+}
+.seccion_3{
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    margin: 8px;
+    border-radius: 4px;
+    height: 50px;
+}
+.footer_1{
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+aside{
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.seccion_4{
+    background-color: rgb(94, 255, 94);
+    border-radius: 4px;
+    margin: 4px;
+    height: 50px;
+}
+
+.seccion_5{
+    background-color: rgb(94, 255, 94);
+    border-radius: 4px;
+    margin: 4px;
+    height: 100px;
+}
+
+.final{
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+    width: 70%;
+    height: 50px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 5px;
+    margin: 5px;
+    width: 70%;
+}
